@@ -4,7 +4,7 @@ import numpy
 
 class ColorDescriptor:
     __slot__ = ["bins"]
-
+ 
     def __init__(self, bins):
         self.bins = bins
 
